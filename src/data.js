@@ -69,7 +69,7 @@ export const housesData = [
     bathrooms: '3',
     surface: '4200 sq ft',
     year: '2016',
-    price: '110000',
+    price: '7500',
     agent: {
       image: Agent1,
       name: 'Patricia Tullert',
@@ -90,7 +90,7 @@ export const housesData = [
     bathrooms: '3',
     surface: '4200 sq ft',
     year: '2016',
-    price: '140000',
+    price: '8000',
     agent: {
       image: Agent2,
       name: 'Daryl Hawker',
@@ -111,7 +111,7 @@ export const housesData = [
     bathrooms: '3',
     surface: '4200 sq ft',
     year: '2016',
-    price: '170000',
+    price: '7200',
     agent: {
       image: Agent3,
       name: 'Amado Smith',
@@ -132,7 +132,7 @@ export const housesData = [
     bathrooms: '3',
     surface: '4200 sq ft',
     year: '2016',
-    price: '200000',
+    price: '6000',
     agent: {
       image: Agent4,
       name: 'Kaitlyn Gonzalez',
@@ -174,7 +174,7 @@ export const housesData = [
     bathrooms: '3',
     surface: '6200 sq ft',
     year: '2014',
-    price: '220000',
+    price: '7800',
     agent: {
       image: Agent6,
       name: 'Karen Sorensen',
@@ -195,7 +195,7 @@ export const housesData = [
     bathrooms: '1',
     surface: '1200 sq ft',
     year: '2012',
-    price: '20000',
+    price: '600',
     agent: {
       image: Agent7,
       name: 'Jawhar Shamil Naser',
@@ -216,7 +216,7 @@ export const housesData = [
     bathrooms: '1',
     surface: '1000 sq ft',
     year: '2011',
-    price: '30000',
+    price: '1200',
     agent: {
       image: Agent8,
       name: 'Juana Douglass',
@@ -237,7 +237,7 @@ export const housesData = [
     bathrooms: '1',
     surface: '1100 sq ft',
     year: '2011',
-    price: '40000',
+    price: '1500',
     agent: {
       image: Agent9,
       name: 'Jerry Schenck',
@@ -258,7 +258,7 @@ export const housesData = [
     bathrooms: '3',
     surface: '3200 sq ft',
     year: '2015',
-    price: '117000',
+    price: '4500',
     agent: {
       image: Agent10,
       name: 'Vera Levesque',
@@ -279,7 +279,7 @@ export const housesData = [
     bathrooms: '2',
     surface: '2200 sq ft',
     year: '2019',
-    price: '145000',
+    price: '3500',
     agent: {
       image: Agent11,
       name: 'Sofia Gomes',
@@ -300,7 +300,7 @@ export const housesData = [
     bathrooms: '4',
     surface: '4600 sq ft',
     year: '2015',
-    price: '139000',
+    price: '6200',
     agent: {
       image: Agent12,
       name: 'Raymond Hood',
@@ -321,7 +321,7 @@ export const housesData = [
     bathrooms: '2',
     surface: '5200 sq ft',
     year: '2014',
-    price: '180000',
+    price: '7400',
     agent: {
       image: Agent1,
       name: 'Patricia Tullert',
@@ -342,7 +342,7 @@ export const housesData = [
     bathrooms: '2',
     surface: '3200 sq ft',
     year: '2011',
-    price: '213000',
+    price: '1800',
     agent: {
       image: Agent2,
       name: 'Daryl Hawker',
@@ -363,7 +363,7 @@ export const housesData = [
     bathrooms: '3',
     surface: '5200 sq ft',
     year: '2013',
-    price: '221000',
+    price: '1600',
     agent: {
       image: Agent3,
       name: 'Amado Smith',
@@ -384,7 +384,7 @@ export const housesData = [
     bathrooms: '1',
     surface: '1300 sq ft',
     year: '2011',
-    price: '21000',
+    price: '800',
     agent: {
       image: Agent4,
       name: 'Kaitlyn Gonzalez',
@@ -405,7 +405,7 @@ export const housesData = [
     bathrooms: '1',
     surface: '1000 sq ft',
     year: '2012',
-    price: '32000',
+    price: '2200',
     agent: {
       image: Agent5,
       name: 'Grover Robinson',
@@ -426,7 +426,70 @@ export const housesData = [
     bathrooms: '1',
     surface: '1200 sq ft',
     year: '2010',
-    price: '38000',
+    price: '3400',
+    agent: {
+      image: Agent6,
+      name: 'Karen Sorensen',
+      phone: '0123 456 78910',
+    },
+  },
+  {
+    id: 19,
+    type: 'House',
+    name: 'House 13',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+    image: Apartment6,
+    imageLg: Apartment6Lg,
+    country: 'United States',
+    address: '84 Woodland St. Cocoa, FL 32927',
+    bedrooms: '3',
+    bathrooms: '1',
+    surface: '1200 sq ft',
+    year: '2010',
+    price: '700',
+    agent: {
+      image: Agent6,
+      name: 'Karen Sorensen',
+      phone: '0123 456 78910',
+    },
+  },
+  {
+    id: 20,
+    type: 'House',
+    name: 'House 14',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+    image: Apartment6,
+    imageLg: Apartment6Lg,
+    country: 'Canada',
+    address: '84 Woodland St. Cocoa, FL 32927',
+    bedrooms: '3',
+    bathrooms: '1',
+    surface: '1200 sq ft',
+    year: '2010',
+    price: '900',
+    agent: {
+      image: Agent6,
+      name: 'Karen Sorensen',
+      phone: '0123 456 78910',
+    },
+  },
+  {
+    id: 21,
+    type: 'Apartament',
+    name: 'Apartament 19',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+    image: Apartment6,
+    imageLg: Apartment6Lg,
+    country: 'United States',
+    address: '84 Woodland St. Cocoa, FL 32927',
+    bedrooms: '3',
+    bathrooms: '1',
+    surface: '1200 sq ft',
+    year: '2010',
+    price: '3400',
     agent: {
       image: Agent6,
       name: 'Karen Sorensen',

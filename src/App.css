@@ -6,6 +6,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
+    font-family: 'Poppins', sans-serif;
 }
 
 html, body {
@@ -17,4 +18,116 @@ html, body {
 a {
     color: unset;
     text-decoration: none;
+}
+
+/* Navbar */
+
+.cta-btn {
+    margin-left: 20px;
+}
+
+.nav-link {
+    margin-left: 25px;
+}
+
+.login-btn {
+    background: transparent !important;
+    color: black;
+}
+
+.login-btn:hover {
+    background: blueviolet !important;
+    color: #fff;
+}
+
+.filter-container {
+    margin-top: 50px;
+    padding: 15px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.houses-container {
+    margin-top: 50px;
+}
+
+.house-card {
+    margin-bottom: 40px;
+    border: 0 !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-top-left-radius: 25%;
+}
+
+.house-type-country {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.house-type, .house-country {
+    font-size: 1rem;
+    background: blueviolet;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.house-country {
+    background: red;
+}
+
+.house-address {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.house-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.house-detail {
+    align-items: baseline;
+}
+
+.house-detail p {
+    margin-left: 5px;
+}
+
+.house-price {
+    font-size: 1.5rem;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.dropdown-section {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    color: black;
+}
+
+.dropdown-section:hover,
+.dropdown-section:focus {
+    background: #edede9;
+    color: black;
+}
+
+.dropdown-info {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.search-btn {
+    background: blueviolet;
+    width: 50%;
+    height: 90%;
+    color: #fff;
+    border: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .search-btn {
+        padding: 10px 30px;
+    }
 }
